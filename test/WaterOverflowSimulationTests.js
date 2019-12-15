@@ -25,6 +25,7 @@ describe('WaterOverflowSimulation', () => {
 
   it('should create a glass stack instance', () => {
     expect(glassStackFactory.getCall(0).args[0]).to.be.equal(countOfGlasses);
+    expect(glassStackFactory.getCall(0).args[1]).to.be.equal(pourInLitres);
   });
 
   it('should ask glass stack to pour', () => {
