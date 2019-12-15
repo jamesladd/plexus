@@ -1,0 +1,28 @@
+{
+  "name": "plexus",
+  "version": "1.0.0",
+  "description": "Plexus Coding Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "jamesladd-plexus"
+  },
+  "keywords": [
+    "Plexus",
+    "Coding",
+    "Challenge"
+  ],
+  "author": "James Ladd",
+  "license": "MIT",
+  "bin": {
+    "plexus": "./index.js"
+  },
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^3.0.0",
+    "yargs": "^15.0.2"
+  }
+}
