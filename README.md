@@ -19,6 +19,11 @@ Plexus Coding Exercise
 - I've attempted to make the Business clear in the implementation. That is 
   the naming of things should match those given in the specification. ie: StackOfWaterGlasses.
 
+- I'm using the NullObject pattern when creating the glass stack to reduce the need for 
+  conditional statements in other code (which means less tests/problems), AND giving the 
+  lifecycle for creation of Glass Stacks a home where developers can easily see 
+  Business logic for argument validation etc.
+  
 - Git Commits should show the flow of work. Add failing test, add enough code to make tests pass,
   then refactor. => Red, Green, Refactor.
 
