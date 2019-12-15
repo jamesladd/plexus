@@ -41,5 +41,18 @@ describe('WaterOverflowSimulation', () => {
       });
     });
 
+    describe('with zero litres poured', () => {
+      const countOfGlasses = 10;
+      const pourInLitres = 0;
+      const glassToCalculate = 0;
+      const rowOfGlassToCalculate = 3;
+      const output = sinon.spy();
+
+      waterOverflowSimulation.simulateOn(countOfGlasses, pourInLitres, glassToCalculate, rowOfGlassToCalculate, output);
+
+      it('should explain there is no liquid', () => {
+          expect(output.getCall(1).args[0]).to.be.equal('All glasses contain 0mil.');
+      });
+    });
   });
 });

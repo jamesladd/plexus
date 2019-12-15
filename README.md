@@ -14,7 +14,10 @@ Plexus Coding Exercise
 
 - It is assumed that doing a simulation with a clear response is better for the User than  
   an output of errors because of input errors. ie: Glasses that cannot be stacked to form 
-  a complete row will be disgarded.
+  a complete row will be discarded.
+  
+  ALSO - Users feel stupid when there is an error so doing what can be done and 
+  explaining the outcome is a better user experience.
   
 - I've attempted to make the Business clear in the implementation. That is 
   the naming of things should match those given in the specification. ie: StackOfWaterGlasses.
@@ -23,6 +26,8 @@ Plexus Coding Exercise
   conditional statements in other code (which means less tests/problems), AND giving the 
   lifecycle for creation of Glass Stacks a home where developers can easily see 
   Business logic for argument validation etc.
+  
+- WaterOverflowSimulationTests shows use of mocking out the dependencies.
   
 - Git Commits should show the flow of work. Add failing test, add enough code to make tests pass,
   then refactor. => Red, Green, Refactor.
