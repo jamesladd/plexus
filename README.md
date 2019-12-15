@@ -26,6 +26,8 @@ Plexus Coding Exercise
   when activity is complete, merging that back into master.
   I don't mind what 'flow' a company uses or if it is master or trunc development.
   
+- I try to keep the work I have done able to be merged into master and deployed at all times.
+  
 ## Install
 ```bash
 npm install

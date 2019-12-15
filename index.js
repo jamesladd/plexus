@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 const WaterOverflowSimulaton = require('./lib/WaterOverflowSimulation');
+const glassStackFactory = require('./lib/glassStackFactory');
 const chalk = require('chalk');
 const boxen = require('boxen');
 const yargs = require('yargs');
@@ -26,4 +27,5 @@ const options = yargs
 
 console.log(msgBox);
 const { countOfGlasses, pourInLitres, glassToCalculate, rowOfGlassToCalculate } = options;
-new WaterOverflowSimulaton().simulateOn(countOfGlasses, pourInLitres, glassToCalculate, rowOfGlassToCalculate, console.log);
+new WaterOverflowSimulaton(glassStackFactory)
+    .simulateOn(countOfGlasses, pourInLitres, glassToCalculate, rowOfGlassToCalculate, console.log);

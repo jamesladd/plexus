@@ -2,11 +2,12 @@ const sinon = require("sinon");
 const expect = require('chai').expect;
 
 const WaterOverflowSimulaton = require('../lib/WaterOverflowSimulation');
+const glassStackFactory = require('../lib/glassStackFactory');
 
 describe('WaterOverflowSimulation', () => {
   describe('simulateOn', () => {
 
-    const waterOverflowSimulation = new WaterOverflowSimulaton();
+    const waterOverflowSimulation = new WaterOverflowSimulaton(glassStackFactory);
     const countOfGlasses = 10;
     const pourInLitres = 2.5;
     const glassToCalculate = 0;
