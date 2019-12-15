@@ -3,6 +3,21 @@ Plexus Coding Exercise
 
 ## Notes and Assumptions
 
+- In the given diagram Row 3 appears to have duplicated Glass identifiers (J1,J2).
+  It is assumed this Row should be J0, J1, J2, J3.
+
+- It is assumed that while the spec says 'overflow is evenly distributed between the
+  glasses in the next row' it is meaning that a glass fed from two glasses above will not
+  fill faster but evenly with those glasses fed from a single above it.
+  ie: Given glass I2,J1 it will fill at same rate as I2,JI even though it is fed by two
+  glasses above.
+
+- It is assumed that doing a simulation with a clear response is better for the User than  
+  an output of errors because of input errors. ie: Glasses that cannot be stacked to form 
+  a complete row will be disgarded.
+  
+- I've attempted to make the Business clear in the implementation. That is 
+  the naming of things should match those given in the specification. ie: StackOfWaterGlasses.
 
 ## Install
 ```bash
