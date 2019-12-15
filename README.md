@@ -24,6 +24,8 @@ Plexus Coding Exercise
   lifecycle for creation of Glass Stacks a home where developers can easily see 
   Business logic for argument validation etc.
   
+- WaterOverflowSimulationTests shows use of mocking out the dependencies.
+  
 - Git Commits should show the flow of work. Add failing test, add enough code to make tests pass,
   then refactor. => Red, Green, Refactor.
 
