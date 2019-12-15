@@ -1,6 +1,9 @@
 # Plexus
 Plexus Coding Exercise
 
+## Notes and Assumptions
+
+
 ## Install
 ```bash
 npm install
@@ -27,4 +30,9 @@ Options:
 ### Example
 ```bash
 node . -c 10 -p 1 -g 1 -r 1 
+```
+
+## Test
+```bash
+npm test
 ```
