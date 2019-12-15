@@ -19,6 +19,15 @@ Plexus Coding Exercise
 - I've attempted to make the Business clear in the implementation. That is 
   the naming of things should match those given in the specification. ie: StackOfWaterGlasses.
 
+- Git Commits should show the flow of work. Add failing test, add enough code to make tests pass,
+  then refactor. => Red, Green, Refactor.
+
+- Git Branches should show 'flow', creating a branch to work on with a meaningful name, then 
+  when activity is complete, merging that back into master.
+  I don't mind what 'flow' a company uses or if it is master or trunc development.
+  
+- I try to keep the work I have done able to be merged into master and deployed at all times.
+  
 ## Install
 ```bash
 npm install
