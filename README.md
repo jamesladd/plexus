@@ -26,6 +26,13 @@ Plexus Coding Exercise
   conditional statements in other code (which means less tests/problems), AND giving the 
   lifecycle for creation of Glass Stacks a home where developers can easily see 
   Business logic for argument validation etc.
+
+- I'm returning self/this from methods to enable to ability for instances to be immutable now  
+  or at a future time (they are not currently).
+  
+- I'm driving the data 'East' by passing in the 'output' function. This simplifies 
+  testing, reduces getters (exposing data) and enables a simpler point of extension for the future
+  (at very little cost now).
   
 - WaterOverflowSimulationTests shows use of mocking out the dependencies.
   
