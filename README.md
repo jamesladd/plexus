@@ -25,7 +25,8 @@ Plexus Coding Exercise
 - I'm using the NullObject pattern when creating the glass stack to reduce the need for 
   conditional statements in other code (which means less tests/problems), AND giving the 
   lifecycle for creation of Glass Stacks a home where developers can easily see 
-  Business logic for argument validation etc.
+  Business logic for argument validation etc in one place which makes sense to me in this
+  case.
   
   ALSO - Creating a concrete instance of a Class based on input is also useful from a 
   Performance perspective. The quickest way to do something is not to have to do it.
