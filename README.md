@@ -26,6 +26,9 @@ Plexus Coding Exercise
   conditional statements in other code (which means less tests/problems), AND giving the 
   lifecycle for creation of Glass Stacks a home where developers can easily see 
   Business logic for argument validation etc.
+  
+  ALSO - Creating a concrete instance of a Class based on input is also useful from a 
+  Performance perspective. The quickest way to do something is not to have to do it.
 
 - I'm returning self/this from methods to enable to ability for instances to be immutable now  
   or at a future time (they are not currently).
